@@ -1,1 +1,98 @@
-/* Add all your styles here */
+
+{
+ margin: 0;
+ padding: 0;
+}
+
+.main{
+  width:40%;
+  background-color:blue;
+  background-image:50%;
+  background-position: center;
+  background-size:cover;
+  height:8%;
+  border-radius:20px;
+  padding:8px;
+}
+
+home{
+    height:50px;
+    width:50px;
+}
+
+img{
+    height:500px;
+    weight:350px;
+    align: center;
+    padding: left;
+}
+
+p{
+    color: blue;
+}
+
+h2{ 
+   color:red;
+
+video{
+    width:200px;
+    height:200px;
+    float:left;
+    display:flex;
+    align: center;
+    border-radius:30px;
+    padding:12px;
+    autoplay loop muted preload:auto;
+}
+Navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+
+icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+logo{
+    color:#8098ff8098ff;
+    font-size:35px;
+    font-family:Arial;
+    padding-left:20px;
+    float:left;
+    padding-top:10px;
+}
+
+menu{
+    width:480px;
+    float:left;
+    height:70px;
+    border-spacing:15px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    Justify-content:center;
+    align-items: center;
+}
+
+ul li{
+    list-style:none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size:14px;
+}
+
+ul.li a{
+    text-decoration:none;
+    color:#ff000aff001f;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    color:#7b55ff2b58ff;
+}
